@@ -41,16 +41,15 @@ Write a program which accepts a sequence of comma-separated numbers from console
  
 Create the below pattern using nested for loop in Python. 
  
- 
-*  
-*	*  
-*	* *  
-*	* * *  
-*	* * * *  
-*	* * *  
-*	* *  
-*	*  
-* 
+*
+* *
+* * *
+* * * *
+* * * * * 
+* * * * 
+* * * 
+* *
+*
  
  
  
