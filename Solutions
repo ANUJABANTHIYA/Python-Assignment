@@ -1,0 +1,86 @@
+1.  Install Jupyter notebook and run the first program and share the screenshot of the output.  
+
+(https://github.com/ANUJABANTHIYA/Python-Assignments/blob/master/question1.png)
+
+2.  
+ 
+Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200 (both included). The numbers obtained should be printed in a comma-separated sequence on a single line. 
+ 
+ list =[]
+for number in range(2000,3201):
+    if(number%5!=0 and number%7 ==0):
+            list.append(str(number))
+print(",".join(list))
+
+
+3.  
+ 
+Write a Python program to accept the user's first and last name and then getting them printed in the the reverse order with a space between first name and last name. 
+ 
+fn = input("Enter first name")
+ln=input("Enter last name")
+print(ln+" "+fn) 
+
+4.  
+ 
+Write a Python program to find the volume of a sphere with diameter 12 cm.  
+
+ pi=3.14
+volume = (4/3)*pi*(6**3)
+print(volume)
+Formula: V=4/3 * π * r 3 
+
+Task 2:  
+ 
+ 
+1.  
+ 
+Write a program which accepts a sequence of comma-separated numbers from console and generate a list. 
+ values = input("Input comma seprated numbers : ")
+list1 = values.split(",")
+ 
+2.  
+ 
+Create the below pattern using nested for loop in Python. 
+ 
+(https://github.com/ANUJABANTHIYA/Python-Assignments/blob/master/question2.PNG)
+ n=5;
+for i in range(n):
+    for j in range(i):
+        print ('* ', end="")
+    print("")
+
+for i in range(n,0,-1):
+    for j in range(i):
+        print('* ', end="")
+    print("")
+
+3.  
+ 
+Write a Python program to reverse a word after accepting the input from the user. 
+
+
+ word = input("Input a word to reverse: ")
+
+for char1 in range(len(word) - 1, -1, -1):
+  print(word[char1],end="")
+Sample Output: 
+ 
+Input word: AcadGild 
+ 
+Output: dilGdacA 
+
+4.  
+ 
+Write a Python Program to print the given string in the format specified in the sample output. 
+ 
+WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a 
+SOVEREIGN, SOCIALIST, SECULAR, DEMOCRATIC REPUBLIC and to secure to all its citizens 
+ 
+string = "WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute {} India into a SOVEREIGN,{} SOCIALIST, SECULAR,{} DEMOCRATIC REPUBLIC{}and to secure to all its citizens{}"
+print(string.format('\n\t','!','\n\t','\n\t\t',''))
+
+Sample Output: 
+ 
+WE, THE PEOPLE OF INDIA,   having solemnly resolved to constitute India into a SOVEREIGN, !  SOCIALIST, SECULAR, DEMOCRATIC REPUBLIC  
+  and to secure to all its citizens 
